@@ -1,0 +1,31 @@
+1. mkdir GitAssignment
+   cd GitAssignment
+   git init
+   notepad txt1.txt
+   notepad txt2.txt
+   notepad txt3.txt
+2. git checkout -b Dev
+   git checkout -b Test
+
+3. git add txt2.txt
+   git add txt3.txt
+   git commit -m "Adding 1 file to Dev" txt2.txt txt3.txt
+   git checkout -b Dev
+   git add txt1.txt
+   git commit -m "Adding 1 file to Dev" txt1.txt
+  
+4. notepad txt1.txt
+
+5. git diff txt1.txt
+   git status
+
+6. git checkout
+   git remote add origin https://github.com/sohamgurav/GitAssignment.git
+   git remote -v
+   git push -u origin master
+   
+7. mkdir GitAssignment2
+   cd GitAssignment2
+   git init 
+   git clone https://github.com/sohamgurav/GitAssignment.git
+   notepad solution.txt
